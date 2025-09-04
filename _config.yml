@@ -27,7 +27,6 @@ additional_links:
   icon: fas fa-trophy
   url: https://codeforces.com/profile/emailrishitkar
 
-
 # About Section
 about_profile_image: imgs/profile1.jpg
 about_content: | # this will include new lines to allow paragraphs
@@ -49,30 +48,28 @@ about_content: | # this will include new lines to allow paragraphs
   My approach combines rigorous theoretical understanding with practical implementation, always emphasizing the importance of explainability and real-world applicability in AI systems.
 
 content:
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Education
+    layout: list
     content:
       - layout: left
         title: Dwarkadas Jivanlal Sanghvi College Of Engineering, Mumbai
         caption: 2023 - 2027, CGPA- 9.14
         sub_title: BTech, Computer Engineering
-        description: | # this will include new lines to allow paragraphs
+        description: |
           **Coursework:** Artificial Intelligence, Compiler Design and Automata, Advanced Database Management Systems, Database Management Systems, Operating Systems, Data Structures, Analysis of Algorithms, Python Programming, Object-Oriented Programming Systems
           
           **Position of Responsibility:**
           
           **Research Head at DJS ACM** - Guiding students about research opportunities, conducting meetings to mentor students in machine learning and AI research, and facilitating research collaboration opportunities within the college community.
 
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
         title: Indian Institute of Technology Patna
-        # link: 
-        # link_text: 
         sub_title: Research Collaborator - Deep Learning for Medical Imaging
         caption: August 2025 - Present
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • Developing deep learning models for comprehensive analysis of NIH chest X-ray datasets
           
           • Focusing on explainability and clinical interpretability for medical AI applications
@@ -84,10 +81,9 @@ content:
       - layout: left
         title: sktime
         link: https://www.sktime.net/en/stable/
-        # link_text: 
         sub_title: Open Source Contributor
         caption: August 2025 - Present
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • Contributing to sktime, a unified framework for machine learning with time series data in Python
           
           • Working on pull requests for migration of TensorFlow implementations to PyTorch
@@ -98,11 +94,9 @@ content:
 
       - layout: left
         title: Indian Institute of Technology Mandi (Onsite)
-        # link: 
-        # link_text: 
         sub_title: Research Intern - Machine Learning for Propeller Optimization
         caption: June 2025 - July 2025
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • Collaborated at the **Center for Artificial Intelligence and Robotics (CAIR Lab)**
           
           • Conducted extensive literature review on geometric deep learning methodologies
@@ -113,78 +107,68 @@ content:
 
           **Supervised by Dr. Jagadeesh Kadiyam**
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: top-middle
         title: Deep Learning for Multiomics Cancer Subtyping (Ongoing)
-        # link: 
-        # link_text: 
         additional_links:
           - title: College Research Project
         quote: >
           Advanced deep learning models for cancer group subtyping using multiomics data
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Currently developing sophisticated deep learning architectures for analyzing multiomics datasets to perform cancer group subtyping across different cancer types using <mark>unsupervised learning</mark>, <mark>Variational Autoencoder</mark> and <mark>explainable AI</mark>. Working with integrated genomic data including mRNA expression, copy number variations, and methylation patterns. Implementing novel neural network approaches to identify distinct cancer subtypes and improve diagnostic precision in oncological applications using <mark>PyTorch</mark> and <mark>scikit-learn</mark>.
 
       - layout: top-middle
         title: Clipper-dev
-        link: github.com/Rklearns/clipper-dev
-        # link_text: Project Website
         additional_links:
           - title: Rklearns/clipper-dev
             icon: fab fa-github
-            url: github.com/Rklearns/clipper-dev
+            url: https://github.com/Rklearns/clipper-dev
         quote: >
           The Ultimate Cross-Platform Clipboard Manager for Developers
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Developed a comprehensive clipboard management tool with <mark>terminal user interface</mark> and published it as a <mark>Python package on PyPI</mark>. Built using <mark>Python</mark> with integrated <mark>TUI capabilities</mark> for enhanced developer productivity. Implemented <mark>fuzzy search</mark> functionality, real-time monitoring, and cross-platform compatibility. Used <mark>pytest</mark> for comprehensive testing and achieved proper package distribution through PyPI.
 
       - layout: top-middle
         title: Multi-Model Pneumonia Diagnosis
-        # link: 
-        # link_text: 
         additional_links:
           - title: View Project
             icon: fab fa-github
             url: https://github.com/Rklearns/Chest-X-Ray-Detection
         quote: >
           Deep learning ensemble for medical image classification using CNN, ResNet, and Graph Neural Networks
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Built a comprehensive deep learning solution for pneumonia classification using chest X-ray images. Implemented <mark>custom CNN architecture</mark> alongside <mark>ResNet</mark> and <mark>Graph Attention Network (GAT)</mark> models for comparative analysis. Developed <mark>multimodal learning pipeline</mark> integrating spatial and attention-based features. Achieved high test accuracy with strong F1 scores for clinical reliability using <mark>TensorFlow</mark> and <mark>Keras</mark>.
 
       - layout: top-middle
         title: Custom Reliable UDP Protocol
-        # link: 
-        # link_text: 
         additional_links:
           - title: View Project
             icon: fab fa-github
             url: https://github.com/Rklearns/Custom-Protocol-Architecture
         quote: >
           High-performance reliable transport protocol with sliding window flow control
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Engineered a reliable transport protocol from scratch using <mark>Python UDP sockets</mark>, incorporating TCP-like features including <mark>sliding window flow control</mark> and automatic retransmission. Implemented <mark>SHA-256 checksums</mark> for data integrity and <mark>concurrent packet processing</mark>. Achieved significant performance improvements over traditional stop-and-wait protocols through optimized throughput testing.
 
       - layout: top-middle
         title: URL-Detracker VS Code Extension
-        # link: 
-        # link_text: 
         additional_links:
           - title: GitHub Repository
             icon: fab fa-github
             url: https://github.com/Rklearns/url-detracker
         quote: >
           Privacy-focused VS Code extension for cleaning tracking parameters from URLs
-        description: | # this will include new lines to allow paragraphs
+        description: |
           Created and published a <mark>VS Code extension</mark> that automatically removes tracking parameters from URLs on paste, enhancing user privacy and link readability. Implemented offline functionality using <mark>regex patterns</mark> without external dependencies. Built using <mark>JavaScript</mark> and <mark>VS Code API</mark>, with comprehensive documentation and marketplace compatibility.
 
-  - title: Skills # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Skills
+    layout: list
     content:
       - layout: left
         title: Programming Languages
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • **Python** - Advanced proficiency in data science, machine learning, and backend development
           
           • **Java** - Object-oriented programming and application development
@@ -199,7 +183,7 @@ content:
 
       - layout: left
         title: Machine Learning & AI
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • **Deep Learning Frameworks** - TensorFlow, Keras, PyTorch
           
           • **ML Libraries** - Scikit-Learn, Pandas, NumPy, Matplotlib
@@ -212,7 +196,7 @@ content:
 
       - layout: left
         title: Developer Tools & Platforms
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • **Version Control** - Git, GitHub for collaborative development
           
           • **Development Environment** - VS Code, Visual Studio, Google Colab, Jupyter Notebooks
@@ -225,7 +209,7 @@ content:
 
       - layout: left
         title: Technical Knowledge
-        description: | # this will include new lines to allow paragraphs
+        description: |
           • **Operating Systems** - System-level programming and OS concepts
           
           • **Database Management** - DBMS design, Advanced DBMS, and database optimization
@@ -238,7 +222,6 @@ content:
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
