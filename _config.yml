@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Rishit Kar
-title: Aspiring AI Engineer
+title: Aspiring Ai Engineer
 email: emailrishitkar@gmail.com
 website: https://github.com/rklearns
 
@@ -41,8 +41,7 @@ about_content: | # this will include new lines to allow paragraphs
   - **Explainable AI for Healthcare Applications**
   - **Large Language Models for Natural Language Understanding**
   - **Computer Vision for Medical Imaging**
-  - **Data Engineering for ML Pipelines**
-  - **Backend Systems for AI Applications**
+  - **Time Series for ML Models using deep learning techniques**
   - **Open Source Contributions to ML Frameworks**
 
   My approach combines rigorous theoretical understanding with practical implementation, always emphasizing the importance of explainability and real-world applicability in AI systems.
@@ -70,7 +69,7 @@ content:
         sub_title: Research Collaborator - Deep Learning for Medical Imaging
         caption: August 2025 - Present
         description: |
-          • Developing deep learning models for comprehensive analysis of NIH chest X-ray datasets
+          • Developing multimodal machine learning models using Graph Neural Networks (GNNs), temporal modeling, and similarity-based learning for disease prediction from chest X-ray images
           
           • Focusing on explainability and clinical interpretability for medical AI applications
           
