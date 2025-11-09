@@ -39,6 +39,7 @@ about_content: | # this will include new lines to allow paragraphs
   My tech interests and learning focus areas include:
 
   - **Explainable AI for Healthcare Applications**
+  - **Time Series Applications in Healthcare, LLMs,etc**
   - **Large Language Models for Natural Language Understanding**
   - **Computer Vision for Medical Imaging**
   - **Time Series for ML Models using deep learning techniques**
@@ -161,6 +162,20 @@ content:
           Privacy-focused VS Code extension for cleaning tracking parameters from URLs
         description: |
           Created and published a <mark>VS Code extension</mark> that automatically removes tracking parameters from URLs on paste, enhancing user privacy and link readability. Implemented offline functionality using <mark>regex patterns</mark> without external dependencies. Built using <mark>JavaScript</mark> and <mark>VS Code API</mark>, with comprehensive documentation and marketplace compatibility.
+  - title: Teaching Experience
+    layout: text
+    content: |
+      **Big Data without the Big Headache: PySpark for Beginners**  
+      **Venue:** IDfy Company | **Hosted by:** Mumpy | [Code](https://github.com/Rklearns/Pyspark-idfy-mumpy/blob/main/session.ipynb) | [RSVP](https://luma.com/l7typahe) | [PPT](https://github.com/Rklearns/Pyspark-idfy-mumpy/blob/main/PySpark-%20Big%20Data%20.pptx)
+      - Delivered a comprehensive session on understanding **PySpark**, its **architecture**, and **applications in Big Data processing**.  
+      - Demonstrated the basic layout of PySpark code and explained its scalability advantages for large datasets.  
+      - Conducted an interactive workshop attended by **30+ students and professionals**.  
+
+      **Cold Mailing for Research Internships and Profile Building**  
+      **Venue:** Google Meet | **Hosted by:** ACM College Committee | [YouTube Video](https://youtu.be/wC1QdWBILLQ?si=aN7w8ezQgwCloyW4) |  [PPT](https://www.canva.com/design/DAG3vuOG9pk/44HaOA3eG707r_Rw-gkTmQ/edit?utm_content=DAG3vuOG9pk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+      - Conducted an in-depth session on **strategic cold mailing techniques** to enhance research collaboration opportunities.  
+      - Discussed effective approaches to **stand out among applicants** and build a strong academic profile.  
+      - Mentored **15+ research mentees**, providing personalized guidance on outreach and professional communication.  
 
   - title: Skills
     layout: list
