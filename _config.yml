@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Rishit Kar
-title: Aspiring Ai Engineer
+title: Computer Engineer
 email: emailrishitkar@gmail.com
 website: https://github.com/rklearns
 
@@ -39,11 +39,9 @@ about_content: | # this will include new lines to allow paragraphs
   My tech interests and learning focus areas include:
 
   - **Explainable AI for Healthcare Applications**
-  - **Time Series Applications in Healthcare, LLMs,etc**
-  - **Large Language Models for Natural Language Understanding**
+  - **Interpretability of Large Language Models for Natural Language Understanding**
   - **Computer Vision for Medical Imaging**
-  - **Time Series for ML Models using deep learning techniques**
-  - **Open Source Contributions to ML Frameworks**
+  - **Agentic AI for cognitive neuroscience**
 
   My approach combines rigorous theoretical understanding with practical implementation, always emphasizing the importance of explainability and real-world applicability in AI systems.
 
@@ -53,7 +51,7 @@ content:
     content:
       - layout: left
         title: Dwarkadas Jivanlal Sanghvi College Of Engineering, Mumbai
-        caption: 2023 - 2027, CGPA- 9.14
+        caption: 2023 - 2027, CGPA- 9.12
         sub_title: BTech, Computer Engineering
         description: |
           **Coursework:** Artificial Intelligence, Compiler Design and Automata, Advanced Database Management Systems, Database Management Systems, Operating Systems, Data Structures, Analysis of Algorithms, Python Programming, Object-Oriented Programming Systems
@@ -78,19 +76,6 @@ content:
 
           **Supervised by Dr. Joydeep Chandra**
 
-      - layout: left
-        title: sktime
-        link: https://www.sktime.net/en/stable/
-        sub_title: Open Source Contributor
-        caption: August 2025 - Present
-        description: |
-          • Contributing to sktime, a unified framework for machine learning with time series data in Python
-          
-          • Working on pull requests for migration of TensorFlow implementations to PyTorch
-          
-          • Helping migrate deep learning components to improve framework consistency
-          
-          • Supporting the open source community with code improvements and framework enhancements
 
       - layout: left
         title: Indian Institute of Technology Mandi (Onsite)
@@ -111,24 +96,39 @@ content:
     layout: list
     content:
       - layout: top-middle
-        title: Deep Learning for Multiomics Cancer Subtyping (Ongoing)
+        title: OmniGate – Omics-Integrated Gating for Explainable Multi-Cancer Subtype Classification
         additional_links:
-          - title: College Research Project
+          - title: College Research Project(under Prof Ruhina Karani)
         quote: >
-          Advanced deep learning models for cancer group subtyping using multiomics data
+          Deep learning framework for robust and explainable multi-omics cancer subtype classification
         description: |
-          Currently developing sophisticated deep learning architectures for analyzing multiomics datasets to perform cancer group subtyping across different cancer types using <mark>unsupervised learning</mark>, <mark>Variational Autoencoder</mark> and <mark>explainable AI</mark>. Working with integrated genomic data including mRNA expression, copy number variations, and methylation patterns. Implementing novel neural network approaches to identify distinct cancer subtypes and improve diagnostic precision in oncological applications using <mark>PyTorch</mark> and <mark>scikit-learn</mark>.
+          Designed and developed <mark>OMNIGATE</mark>, a novel deep learning framework for multi-modal cancer subtype classification using integrated omics data (<mark>mRNA</mark>, <mark>miRNA</mark>, <mark>CNV</mark>, <mark>Methylation</mark>). Introduced a <mark>dynamic context gating mechanism</mark> that adaptively weights modality importance per sample, improving robustness over traditional feature concatenation methods.
+
+          Implemented a <mark>multi-objective loss function</mark> combining <mark>Focal Loss</mark> (handling class imbalance), <mark>Orthogonality & Alignment Loss</mark> (ensuring meaningful latent representations), and <mark>Sparsity & Entropy Regularization</mark> (encouraging decisive modality selection).
+
+          Built an <mark>explainable AI pipeline</mark> to extract <mark>Top-K biomarkers</mark> using gradient-based sensitivity analysis and visualize <mark>modality importance</mark>, enabling interpretable and clinically relevant predictions.
+
+          Developed using <mark>PyTorch</mark> and <mark>scikit-learn</mark> for scalable experimentation on multi-omics datasets.
 
       - layout: top-middle
-        title: Clipper-dev
+        title: Clipper-dev – Cross-Platform Clipboard Manager for Developers
         additional_links:
           - title: Rklearns/clipper-dev
             icon: fab fa-github
             url: https://github.com/Rklearns/clipper-dev
+          - title: PyPI Package
+            icon: fas fa-box
+            url: https://pypi.org/project/clipper-dev/
         quote: >
-          The Ultimate Cross-Platform Clipboard Manager for Developers
+          Developer-focused CLI/TUI clipboard manager with real-world adoption on PyPI
         description: |
-          Developed a comprehensive clipboard management tool with <mark>terminal user interface</mark> and published it as a <mark>Python package on PyPI</mark>. Built using <mark>Python</mark> with integrated <mark>TUI capabilities</mark> for enhanced developer productivity. Implemented <mark>fuzzy search</mark> functionality, real-time monitoring, and cross-platform compatibility. Used <mark>pytest</mark> for comprehensive testing and achieved proper package distribution through PyPI.
+          Developed <mark>Clipper-dev</mark>, a cross-platform clipboard manager enabling <mark>persistent history tracking</mark>, structured content organization, and efficient retrieval through commands like <mark>add</mark>, <mark>search</mark>, <mark>restore</mark>, and export across macOS, Linux, and Windows.
+
+          Designed an interactive <mark>Terminal User Interface (TUI)</mark> with features including <mark>real-time fuzzy search</mark>, history browser, and a statistics dashboard to enhance developer productivity.
+
+          Published as a <mark>Python package on PyPI</mark> with <mark>2300+ downloads</mark>, demonstrating practical adoption and usability in real-world developer workflows.
+
+          Implemented using <mark>Python</mark> with <mark>pytest</mark>-based testing and robust packaging for seamless distribution.
 
       - layout: top-middle
         title: Multi-Model Pneumonia Diagnosis
