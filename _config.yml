@@ -46,6 +46,16 @@ about_content: | # this will include new lines to allow paragraphs
   My approach combines rigorous theoretical understanding with practical implementation, always emphasizing the importance of explainability and real-world applicability in AI systems.
 
 content:
+  - title: News
+    layout: text
+    content: |
+      **Mar 2026** — **CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems** accepted at the **ICLR 2026 MemAgents Workshop**  
+      Authors: Pearl Mody, Mihir Panchal, **Rishit Kar**, Kiran Bhowmick, Ruhina Karani ([Code](https://github.com/Rklearns/CraniMEM) | [PyPI](https://pypi.org/project/cranimem/))
+
+      **August 2025** — Started research collaboration with IIT Patna
+
+      **Jul 2025** — Completed Research internship at IIT Mandi(CAIR Lab)
+      
   - title: Education
     layout: list
     content:
@@ -162,7 +172,7 @@ content:
           Privacy-focused VS Code extension for cleaning tracking parameters from URLs
         description: |
           Created and published a <mark>VS Code extension</mark> that automatically removes tracking parameters from URLs on paste, enhancing user privacy and link readability. Implemented offline functionality using <mark>regex patterns</mark> without external dependencies. Built using <mark>JavaScript</mark> and <mark>VS Code API</mark>, with comprehensive documentation and marketplace compatibility.
-  - title: Teaching Experience
+  - title: Talks
     layout: text
     content: |
       **Big Data without the Big Headache: PySpark for Beginners**  
