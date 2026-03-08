@@ -108,10 +108,10 @@ content:
       - layout: top-middle
         title: OmniGate – Omics-Integrated Gating for Explainable Multi-Cancer Subtype Classification
         additional_links:
-          - title: College Research Project(under Prof Ruhina Karani)
         quote: >
           Deep learning framework for robust and explainable multi-omics cancer subtype classification
         description: |
+          College Innovative Product Development Project (Supervised by Prof Ruhina Karani) 
           Designed and developed <mark>OMNIGATE</mark>, a novel deep learning framework for multi-modal cancer subtype classification using integrated omics data (<mark>mRNA</mark>, <mark>miRNA</mark>, <mark>CNV</mark>, <mark>Methylation</mark>). Introduced a <mark>dynamic context gating mechanism</mark> that adaptively weights modality importance per sample, improving robustness over traditional feature concatenation methods.
 
           Implemented a <mark>multi-objective loss function</mark> combining <mark>Focal Loss</mark> (handling class imbalance), <mark>Orthogonality & Alignment Loss</mark> (ensuring meaningful latent representations), and <mark>Sparsity & Entropy Regularization</mark> (encouraging decisive modality selection).
