@@ -26,7 +26,9 @@ additional_links:
 - title: Codeforces
   icon: fas fa-trophy
   url: https://codeforces.com/profile/emailrishitkar
-
+- title: Google Scholar
+  icon: fas fa-graduation-cap
+  url: https://scholar.google.com/citations?user=eMHI4WgAAAAJ&hl=en
 # About Section
 about_profile_image: imgs/profile1.jpg
 about_content: | # this will include new lines to allow paragraphs
