@@ -50,7 +50,7 @@ content:
     layout: text
     content: |
       **Mar 2026** — **CraniMem: Cranial Inspired Gated and Bounded Memory for Agentic Systems** accepted at the **ICLR 2026 MemAgents Workshop**  
-      Authors: Pearl Mody, Mihir Panchal, **Rishit Kar**, Kiran Bhowmick, Ruhina Karani ([Code](https://github.com/Rklearns/CraniMEM) | [PyPI](https://pypi.org/project/cranimem/))
+      Authors: Pearl Mody, Mihir Panchal, **Rishit Kar**, Kiran Bhowmick, Ruhina Karani ([Paper](https://arxiv.org/abs/2603.15642) | [Code](https://github.com/Rklearns/CraniMEM) | [PyPI](https://pypi.org/project/cranimem/))
 
       **August 2025** — Started research collaboration with IIT Patna
 
